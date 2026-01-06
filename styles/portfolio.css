@@ -136,7 +136,6 @@ ul {
 
     background:url("../images/gradient2.png"), url("../images/watch.png");
     background-repeat: none;
-    background-image: ;
 
     margin: 0 auto 130px;
 }
@@ -191,4 +190,28 @@ footer .div1 p {
 footer .div1 .icons {
     display: flex;
     gap: 18px;
+}
+
+footer .div2 h2 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 31px;
+}
+
+footer .div2 input {
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+
+    width: 325px;
+
+    font-size: 18px;
+    font-weight: 700;
+    padding: 21px;
+
+    margin-bottom: 20px;
+}
+
+.div2 button {
+    display: block;
 }
