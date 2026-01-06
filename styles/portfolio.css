@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    height: 808px;
+    width: 100%;
+    background: url("../images/banner/banner1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.container .header-title {
+    width: 33%;
+    text-align: right;
+    margin-right: 14%;
+}
+
+.container .header-title h1 {
+    font-size: 65px;
+    font-weight: 900;
+    margin-bottom: 24px;
+}
+
+.container .header-title p {
+    font-size: 26px;
+    line-height: 31px;
+    margin-bottom: 32px;
+    color: #444343;
+}
+
+.container .header-title button {
+    background-color: #F15B22;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 21px 25px 20px 26px;
+    border: none;
+    border-radius: 5px;
+}
+
+.previous-year {
+    
+}
+
+.sec1-container {
+    margin: 131px auto;
+    width: 67%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 87px;
+
+    border: 1px solid blue;
+}
+
+.sec1-container .text-div {
+    width: 416px;
+    text-align: left;
+}
+
+.sec1-container h2 {
+    font-size: 40px;
+    font-weight: 900;
+
+    margin-bottom: 24px;
+}
+
+.sec1-container p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+
+    margin-bottom: 16px;
+}
+
+.sec1-container ul li {
+    color: #444343;
+    margin-bottom: 8px;
+}
